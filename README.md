@@ -2,16 +2,21 @@
 Full Stack Task: Build a Mobile Al Chat App (Frontend + Backend)
 
 ## Run the backend
-File path\ai-chat-app>cd backend
-File path\ai-chat-app\backend>node index.js
-Result should be like this 👇 - the backend is working
-`Server running on http://0.0.0.0:5000`
+File path\ai-chat-app>cd backend <br>
 
-Test frontend using  Expo
-File path\ai-chat-app>cd frontend
-File path\ai-chat-app\frontend>npm start
-A QR code like this will appear 👇, first install the Expo Go app from playstore to android, then scan the QR code via that app - the frontend is also working
-`Starting Metro Bundler`
+File path\ai-chat-app\backend>node index.js <br>
+
+Result should be like this 👇 - the backend is working<br>
+`Server running on http://0.0.0.0:5000` <br>
+
+## Test frontend using  Expo
+File path\ai-chat-app>cd frontend <br>
+
+File path\ai-chat-app\frontend>npm start<br>
+
+A QR code like this will appear 👇, first install the Expo Go app from playstore to android, then scan the QR code via that app - the frontend is also working <br>
+
+`Starting Metro Bundler` <br>
 ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 █ ▄▄▄▄▄ █▄▄▄ ▀█▄█▄█ ▄▄▄▄▄ █
 █ █   █ ██▄▀ █ ▀▄▄█ █   █ █
@@ -43,6 +48,6 @@ A QR code like this will appear 👇, first install the Expo Go app from playsto
 4. See run comand above and then test it on Expo Go
 
 ## To build APK--> frontend
-`npm install -g eas-cli`
-`eas build:configure`
-`eas build -p android --profile preview`
+1. `npm install -g eas-cli`<br>
+2. `eas build:configure`<br>
+3. `eas build -p android --profile preview`
