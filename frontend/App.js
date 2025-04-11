@@ -1,3 +1,20 @@
+import * as React from 'react';
+import { Provider as PaperProvider } from 'react-native-paper';
+import ChatScreen from './ChatScreen';
+
+export default function App() {
+  return (
+    <PaperProvider>
+      <ChatScreen />
+    </PaperProvider>
+  );
+}
+
+
+
+
+
+/*
 import React, { useState, useRef } from 'react';
 import {
   StyleSheet, Text, View, TextInput, TouchableOpacity, ScrollView, ActivityIndicator
@@ -83,3 +100,4 @@ const styles = StyleSheet.create({
   },
   msgText: { fontSize: 16 },
 });
+*/
